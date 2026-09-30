@@ -1,0 +1,13 @@
+git remote add origin https://github.com/altodomorro/checkout.git
+git branch -M main
+git push -u origin main
+
+mkdir checkout
+cd checkout
+git init
+echo "# checkout" > README.md
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/altodomorro/checkout.git
+git push -u origin main
